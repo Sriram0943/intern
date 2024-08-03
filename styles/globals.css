@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #0070f3;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+  }
+  
+  button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  .task-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .task-item p {
+    color: #666;
+  }
+  
+  .task-item small {
+    color: #999;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .task-item button {
+    margin-right: 5px;
+    background-color: #28a745;
+  }
+  
+  .task-item button.edit {
+    background-color: #ffc107;
+  }
+  
+  .task-item button.delete {
+    background-color: #dc3545;
+  }
+  
+  .task-item button.complete {
+    background-color: #17a2b8;
+  }
+  
+  .task-item button:hover {
+    opacity: 0.8;
+  }
+  
+  input[type="text"], input[type="search"] {
+    margin: 0 auto;
+    display: block;
+  }
+  
